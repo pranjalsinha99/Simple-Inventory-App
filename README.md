@@ -1,6 +1,16 @@
 # Getting Started with This Simple Inventory App
 
+## Clone this app
+
+Run this command on a terminal to clone this app to your pc
+
+### `git clone https://github.com/pranjalsinha99/Simple-Inventory-App.git`
+
 ## How to Run
+
+cd into the folder you created with the previous command by running,
+
+### `cd Simple-Inventory-App`
 
 To get started, install the dependencies with
 
