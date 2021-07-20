@@ -3,7 +3,6 @@ import SearchBar from "./SearchBar";
 import AddItem from "./Additem";
 import ItemDisplay from "./ItemDisplay";
 import { useState, useEffect } from "react";
-import Test from "./ClassComponent";
 
 function App() {
   const [filters, setFilters] = useState({});
@@ -82,9 +81,7 @@ function App() {
           items={filterdata(data["items"])}
         />
       </div>
-      <div>
-        <Test />
-      </div>
+
       {/* <td>Name: {data["name"]}</p>
       <p>Price:{data["price"]}</p>
       <td>Type:{data["type"]}</p>
